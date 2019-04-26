@@ -5,12 +5,14 @@
 5
 6 turn on PowerBoss for 35 min
 7 turn on thermal walow and check temp above 50C
-8 turn off thermal walow
-9 run full test (around 4hrs)
-10 initiate pm2 for data transfer
-11 loop checking the pm2 'completed' flag and with timeout 10min
-12 if set, turn off PowerBboss
-13
-14 end
+8 turn on powerBoss for 15 min
+9 turn on thermal walow for temp up to 75C
+10 turn off thermal walow
+11 run full test (around 4hrs)
+12 initiate pm2 for data transfer
+13 loop checking the pm2 'completed' flag and with timeout 10min
+14 if set, turn off PowerBboss
 15
+16 end
+17
 
